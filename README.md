@@ -15,6 +15,7 @@ Caesar cipher where the given image is the key to the cipher:</br>
 K -> M (shift two positions right)</br>
 O -> Q (shift two positions right)</br>
 E -> G (shift two positions right)</br>
+
 The everybody thinks "twice" part is also hinting to the fact that we should
 shift all letters in the jumbled text below to the right.</br>
 
@@ -23,4 +24,19 @@ the key to the cipher, decrypt the message.</br>
 
 Once the message is decrypted, it tells us to decrypt the url. Decrypt the name
 of the html file and use that as the name of the next html page.
+</details>
+
+<details>
+<summary><strong>Problem 2</strong></summary>
+The hint for this problem directs us to the page source, which contains
+a very large comment with a note saying "find rare characters". Send a get
+request to the page and construct a BeautifulSoup parser to find the second
+comment (the one with mess of characters) then use a dictionary to keep count
+of all the characters. Then find the keys with the smallest value associated
+with them.</br>
+
+Once we have a dictionary of the characters and the number of times they appear,
+we can sort them based on their values and view the results. We'll notice that
+the first eight characters in acending order of appearence will spell 
+'equality'. We'll use this as the name of the next riddle's page.
 </details>
