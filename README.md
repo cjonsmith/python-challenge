@@ -40,3 +40,16 @@ we can sort them based on their values and view the results. We'll notice that
 the first eight characters in acending order of appearence will spell 
 'equality'. We'll use this as the name of the next riddle's page.
 </details>
+
+<details>
+<summary><strong>Problem 3</strong></summary>
+Similar to the last problem, the bulk of 3.py is scraping a large comment
+from the source of the webpage in order to find the name of the next webpage
+to visit. The hint this time is to look for one "small letter" surrounded
+by exactly three "big bodyguards" (letters) on each of its sides. To find all
+matches of this pattern, construct a regular expression that will match to
+exactly three uppercase letters, a single lowercase letter, and an additional
+three uppercase letters. We'll preserve the named group for the lowercase
+letters then join them together to get the name of the next webpage.
+</details>
+
