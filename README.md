@@ -53,3 +53,15 @@ three uppercase letters. We'll preserve the named group for the lowercase
 letters then join them together to get the name of the next webpage.
 </details>
 
+<details>
+<summary><strong>Problem 4</strong></summary>
+The image on the webpage is an anchor to another webpage with a similar
+url. Appended to the end of the url however is a web-query entitled "nothing"
+with a value of 44827. The content of the new page is "and the next nothing is",
+followed by a number. This hints that we should alter the web-query by changing
+the value of the webquery to the number found on the content of this page. 
+
+Another hint is provided in the source code of the original page informing us
+that we need not go past 400 new pages. The pattern described above will repeat
+until a special webpage is found containing the name of the next page.
+</details>
