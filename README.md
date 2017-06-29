@@ -65,3 +65,17 @@ Another hint is provided in the source code of the original page informing us
 that we need not go past 400 new pages. The pattern described above will repeat
 until a special webpage is found containing the name of the next page.
 </details>
+
+<details>
+<summary><strong>Problem 5</strong></summary>
+The first hint for this problem is the title of the webpage: 'peak hell'.
+When pronounced, it sounds very similar to 'pickle', which is the builtin
+python object serialization package. When viewing the the source code of the
+webpage, there is a 'peakhell' tag that links to a pickle file. We'll download
+the file (prompting the user if they are okay with deserializing the file) then
+view its contents.
+
+Each line from the file is part of an ASCII art textual representation of the name
+for the next webpage. Printing out each line and then following the link to the
+webpage 'channel' will bring us the the sixth riddle.
+</details>
