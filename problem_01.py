@@ -23,7 +23,7 @@ key = str.maketrans(ascii_lowercase, rot2)
 # Scrape the website to get the encrypted message.
 webpage = "http://www.pythonchallenge.com/pc/def/map.html"
 r = requests.get(webpage)
-soup = BeautifulSoup(r.content, "lxml")
+soup = BeautifulSoup(r.content, features="html5lib")
 data = soup.find("td").get_text().strip().split("\n")
 msg = data[-1]
 

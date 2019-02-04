@@ -79,3 +79,16 @@ Each line from the file is part of an ASCII art textual representation of the na
 for the next webpage. Printing out each line and then following the link to the
 webpage 'channel' will bring us the the sixth riddle.
 </details>
+
+<details>
+<summary><strong>Problem 6</strong></summary>
+The first hint to this problem is in a comment in the page's source: `<!-- <!--zip --> `
+With this knowledge, we can traverse to zip.html, which tells us to 'find the zip'.
+
+From there, we'll navigate to the original page (`/channel`) and navigate to `.zip`
+instead of `.html`. This will trigger a download of a zip file, which we'll then
+extract to find a large number of files.
+
+One of the files from the zip folder is a readme, which will tell us which file to
+start reading from first.
+</details>
