@@ -2,10 +2,10 @@
 K -> M (shift two positions right)
 O -> Q (shift two positions right)
 E -> G (shift two positions right)
-The everybody thinks "twice" part is also hinting to the fact that we should 
+The everybody thinks "twice" part is also hinting to the fact that we should
 shift all letters in the jumbled text below to the right.
 
-Create a parsetree using BeautifulSoup to find the encrypted text, then using 
+Create a parsetree using BeautifulSoup to find the encrypted text, then using
 the key to the cipher, decrypt the message.
 
 Once the message is decrypted, it tells us to decrypt the url. Decrypt the name

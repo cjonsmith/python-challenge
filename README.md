@@ -5,7 +5,7 @@ My solutions to the "Python Challenge" online programming riddles: http://www.py
 <details>
 <summary><strong>Problem 0</strong></summary>
 The hint is pretty informative for this problem; change the current number
-in the url to the given number on the webpage, which is 2<sup>38</sup>. 
+in the url to the given number on the webpage, which is 2<sup>38</sup>.
 Open the new url in the default browser.
 </details>
 
@@ -19,7 +19,7 @@ E -> G (shift two positions right)</br>
 The everybody thinks "twice" part is also hinting to the fact that we should
 shift all letters in the jumbled text below to the right.</br>
 
-Create a parsetree using BeautifulSoup to find the encrypted text, then using 
+Create a parsetree using BeautifulSoup to find the encrypted text, then using
 the key to the cipher, decrypt the message.</br>
 
 Once the message is decrypted, it tells us to decrypt the url. Decrypt the name
@@ -37,7 +37,7 @@ with them.</br>
 
 Once we have a dictionary of the characters and the number of times they appear,
 we can sort them based on their values and view the results. We'll notice that
-the first eight characters in acending order of appearence will spell 
+the first eight characters in acending order of appearence will spell
 'equality'. We'll use this as the name of the next riddle's page.
 </details>
 
@@ -59,7 +59,7 @@ The image on the webpage is an anchor to another webpage with a similar
 url. Appended to the end of the url however is a web-query entitled "nothing"
 with a value of 44827. The content of the new page is "and the next nothing is",
 followed by a number. This hints that we should alter the web-query by changing
-the value of the webquery to the number found on the content of this page. 
+the value of the webquery to the number found on the content of this page.
 
 Another hint is provided in the source code of the original page informing us
 that we need not go past 400 new pages. The pattern described above will repeat
